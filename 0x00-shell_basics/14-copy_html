@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -rmv --include='*/' --include='*.html' --exclude='*' src/ ..
+rsync -rmv --include='*.html' --exclude='*' src/ ..
